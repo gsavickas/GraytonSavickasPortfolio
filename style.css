@@ -8,6 +8,9 @@ h1{
     text-align: center;
     font-weight: 600;
 }
+h2{
+    font-weight: 600;
+}
 header{
     position: fixed;
     top: 0;
@@ -16,7 +19,6 @@ header{
     width: 100%;
     display: block;
     background-color: gray;
-    /* opacity: .7; */
 }
 a, a:hover, a:visited{
     color: white;
@@ -29,17 +31,36 @@ a, a:hover, a:visited{
     font-weight: 700;
     top: 0;
 }
-.content{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-.section1{
-    background-color: #24292E;
-    justify-content: center;
-    text-align: center;
-}
 .navbutton{
     border: solid 5px white;
     border-radius: .7em;
     margin: .1em;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.section{
+    background-color: #24292E;
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+
+}
+.protoPics{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.thumb{
+    width: 40em;
+    height: 20em;
+    padding: 1em;
+    /* margin-left: 5.5em; */
+}
+.boldContent{
+    font-weight: 400;
+    font-size: 2em;
 }

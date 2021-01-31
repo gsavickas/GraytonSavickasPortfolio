@@ -64,3 +64,9 @@ a, a:hover, a:visited{
     font-weight: 400;
     font-size: 2em;
 }
+.headshot{
+    width: 25%;
+    height: 25%;
+    padding: 1em;
+    border: solid white 5px;
+}

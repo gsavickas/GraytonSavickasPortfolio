@@ -1,0 +1,45 @@
+body{
+    background-image: url("Resources/background4.jpeg");
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 600;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0px;
+    font-size: 2em;
+    width: 100%;
+    display: block;
+    background-color: gray;
+    /* opacity: .7; */
+}
+a, a:hover, a:visited{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1.3fr 1.1fr .8fr .8fr;
+    text-align: center;
+    font-weight: 700;
+    top: 0;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.section1{
+    background-color: #24292E;
+    justify-content: center;
+    text-align: center;
+}
+.navbutton{
+    border: solid 5px white;
+    border-radius: .7em;
+    margin: .1em;
+}

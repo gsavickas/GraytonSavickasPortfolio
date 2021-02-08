@@ -38,6 +38,10 @@ a, a:hover, a:visited{
     display: grid;
     grid-template-columns: 1fr;
 }
+.columns2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .section{
     background-color: #24292E;
     justify-content: center;

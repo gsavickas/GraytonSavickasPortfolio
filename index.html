@@ -24,15 +24,15 @@
         <header>
             <nav class="navbar">
                 <a href="index.html" class="home navbutton">Grayton Savickas</a>
-                <a href="index.html" class="projects navbutton">My Projects</a>
-                <a href="about.html" class="about navbutton">About</a>
-                <a href="contact.html" class="contact navbutton">Contact</a>
+                <a href="#projects" class="projects navbutton">My Projects</a>
+                <a href="#about" class="about navbutton">About</a>
+                <a href="#contact" class="contact navbutton">Contact</a>
             </nav>
         </header>
         <img src="" alt="">
-        <h1>Hello there, I make fantastic custom websites</h1>
-        <h2>These are my projects</h2>
-        <div class="content">
+        <h1>Hello there, I make fantastic custom websites!</h1>
+        <h2 id="projects">These are my projects</h2>
+        <div class="content columns2">
 
             <div class="section section1">
 
@@ -78,22 +78,30 @@
                     </a>
                   </div>
               </div>
-
+        </div>
+        <!-- This section is for portfolio sketches -->
               <div class="section section4">
                 <h3>Personal Portfolio Prototype</h3>
                   <div class="protoPics">
-                    <img class="thumb" src="Resources/ProtoPics/Home.jpg" alt="">
-                    <img class="thumb" src="Resources/ProtoPics/Projects.jpg" alt="">
-                    <img class="thumb" src="Resources/ProtoPics/AboutMe.jpg" alt="">
-                    <img class="thumb" src="Resources/ProtoPics/ContactMe.jpg" alt="">
+                    <div>
+                      <img class="thumb" src="Resources/ProtoPics/Home.jpg" alt="">
+                    </div>
+                    <div>
+                      <img class="thumb" src="Resources/ProtoPics/Projects.jpg" alt="">
+                    </div>
+                    <div>
+                      <img class="thumb" src="Resources/ProtoPics/AboutMe.jpg" alt="">
+                    </div>
+                    <div>
+                      <img class="thumb" src="Resources/ProtoPics/ContactMe.jpg" alt="">
+                    </div>
                   </div>
               </div>
-        </div>
         <!-- This is my about section -->
         <div class="content">
 
           <div class="section sectionAbout1">
-            <h2>About Me</h2>
+            <h2 id="about">About Me</h2>
               <div class="card">
                   <a href="https://github.com/gsavickas">
                   <img class="headshot" src="Resources/headshot3.png" alt="">
@@ -117,7 +125,7 @@
         <div class="content">
 
           <div class="section sectionContact1">
-            <h2>What to get in touch?</h2>
+            <h2 id="contact">What to get in touch?</h2>
               <div class="card">
                   <a href="https://github.com/gsavickas">
                   <img src="Resources/Awesome.png" alt="">

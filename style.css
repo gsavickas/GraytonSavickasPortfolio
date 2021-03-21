@@ -24,7 +24,7 @@ a, a:hover, a:visited{
 }
 .navbar{
     display: grid;
-    grid-template-columns: 1.3fr 1.1fr .8fr .8fr;
+    grid-template-columns: 1.3fr 1.1fr .8fr .8fr .8fr;
     text-align: center;
     font-weight: 700;
     top: 0;
@@ -60,8 +60,12 @@ a, a:hover, a:visited{
     width: 40em;
     height: 20em;
     padding: 1em;
+    border: solid white 2px;
     /* margin-left: 5.5em; */
 }
+.thumb:hover {
+    transform: scale(1.5,1.5);
+  }
 .boldContent{
     font-weight: 400;
     font-size: 2em;

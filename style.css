@@ -24,7 +24,7 @@ a, a:hover, a:visited{
 }
 .navbar{
     display: grid;
-    grid-template-columns: 1.3fr 1.1fr .8fr .8fr .8fr;
+    grid-template-columns: 1fr .8fr .8fr .8fr .6fr .6fr;
     text-align: center;
     font-weight: 700;
     top: 0;
@@ -84,4 +84,9 @@ table.center{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+.vid-style{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }

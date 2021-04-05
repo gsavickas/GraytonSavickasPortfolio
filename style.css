@@ -90,3 +90,19 @@ table.center{
     margin-right: auto;
     display: block
 }
+/* pagination */
+.pagination {
+    display: inline-block;
+  }
+.pagination-2{
+    text-align: center;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    font-size: 2em;
+}
+  
+  .pagination a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }

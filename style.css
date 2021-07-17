@@ -106,3 +106,7 @@ table.center{
     padding: 8px 16px;
     text-decoration: none;
   }
+
+  .prodIcon{
+      width: 25%;
+  }
